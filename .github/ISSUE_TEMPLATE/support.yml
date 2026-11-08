@@ -1,0 +1,48 @@
+name: Bug or setup problem
+description: Report a durmem installation, setup, or runtime problem
+title: "[Support]: "
+labels: [triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub issues are public. Deleting one does not reliably erase it: the content may persist in search engine caches, third-party archives or bots that scrape public activity, and notification emails already sent.
+
+        **Do not paste codes, links, grants, credentials, `stores.toml` values, or screenshots containing them.** Report security vulnerabilities privately as described in [SECURITY.md](https://github.com/durmem/durmem/blob/main/SECURITY.md), never in a public issue.
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: harness
+    attributes:
+      label: Harness name and version
+      placeholder: "For example: Codex 1.2.3"
+    validations:
+      required: true
+
+  - type: input
+    id: loom-version
+    attributes:
+      label: Output of `durmem --version` (version only)
+      description: Run `durmem --version` and paste only the version string.
+    validations:
+      required: true
+
+  - type: textarea
+    id: redacted-error
+    attributes:
+      label: Exact redacted error message
+      description: Remove all sensitive values before pasting the exact message.
+      render: shell
+    validations:
+      required: true

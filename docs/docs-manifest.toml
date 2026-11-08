@@ -1,0 +1,277 @@
+# Manifest of the user documentation set. This drives the /docs home, page routes,
+# audience filtering, package contents, and the documentation link and verification gates.
+#
+# audience = both | hosted | private
+# section = guide | tutorials | kanban | private | reference
+# group/order define the reading order on /docs. Page titles and summaries come from Markdown.
+
+[[doc]]
+slug = "what-is-durmem"
+file = "guide/what-is-durmem.md"
+section = "guide"
+audience = "both"
+group = "Get started"
+order = 1
+next = "quickstart"
+verified = ""
+
+[[doc]]
+slug = "quickstart"
+file = "guide/quickstart.md"
+section = "guide"
+audience = "both"
+group = "Get started"
+order = 2
+previous = "what-is-durmem"
+next = "manage-stores"
+verified = ""
+
+[[doc]]
+slug = "manage-stores"
+file = "guide/manage-stores.md"
+section = "guide"
+audience = "both"
+group = "Get started"
+order = 3
+previous = "quickstart"
+next = "data-types-for-coding-agents"
+verified = ""
+
+[[doc]]
+slug = "security-and-privacy"
+file = "guide/security-and-privacy.md"
+section = "guide"
+audience = "both"
+group = "References"
+order = 202
+verified = ""
+
+[[doc]]
+slug = "connect-hermes"
+file = "guide/connect-hermes.md"
+section = "guide"
+audience = "both"
+group = "References"
+order = 203
+verified = ""
+
+[[doc]]
+slug = "connect-muse"
+file = "guide/connect-muse.md"
+section = "guide"
+audience = "both"
+group = "References"
+order = 204
+verified = ""
+
+[[doc]]
+slug = "connect-dot"
+file = "guide/connect-dot.md"
+section = "guide"
+audience = "both"
+group = "References"
+order = 205
+verified = ""
+
+[[doc]]
+slug = "tutorials"
+file = "tutorials/index.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 100
+verified = ""
+
+[[doc]]
+slug = "data-types-for-coding-agents"
+file = "tutorials/data-types-for-coding-agents.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 102
+previous = "manage-stores"
+next = "give-agents-real-time-reminders"
+verified = ""
+
+[[doc]]
+slug = "give-agents-real-time-reminders"
+file = "tutorials/give-agents-real-time-reminders.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 103
+previous = "data-types-for-coding-agents"
+next = "manage-a-project"
+verified = ""
+
+[[doc]]
+slug = "manage-a-project"
+file = "tutorials/manage-a-project.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 104
+previous = "give-agents-real-time-reminders"
+next = "changing-prices"
+verified = ""
+
+[[doc]]
+slug = "changing-prices"
+file = "tutorials/changing-prices.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 105
+previous = "manage-a-project"
+next = "reuse-a-question"
+verified = ""
+
+[[doc]]
+slug = "reuse-a-question"
+file = "tutorials/reuse-a-question.md"
+section = "tutorials"
+audience = "both"
+group = "Learn by example"
+order = 106
+previous = "changing-prices"
+verified = ""
+
+[[doc]]
+slug = "what-is-kanban"
+file = "kanban/what-is-kanban.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 200
+next = "connect-computers"
+verified = ""
+
+[[doc]]
+slug = "connect-computers"
+file = "kanban/connect-computers.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 201
+previous = "what-is-kanban"
+next = "penguin-walkthrough"
+verified = ""
+
+[[doc]]
+slug = "penguin-walkthrough"
+file = "kanban/penguin-walkthrough.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 203
+previous = "connect-computers"
+next = "kanban-board-tour"
+verified = ""
+
+[[doc]]
+slug = "kanban-board-tour"
+file = "kanban/kanban-board-tour.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 204
+previous = "penguin-walkthrough"
+next = "trust-and-vault"
+verified = ""
+
+[[doc]]
+slug = "trust-and-vault"
+file = "kanban/trust-and-vault.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 206
+previous = "kanban-board-tour"
+next = "maintain-workers"
+verified = ""
+
+[[doc]]
+slug = "maintain-workers"
+file = "kanban/maintain-workers.md"
+section = "kanban"
+audience = "both"
+group = "Kanban"
+order = 207
+previous = "trust-and-vault"
+verified = ""
+
+[[doc]]
+slug = "glossary"
+file = "reference/glossary.md"
+section = "reference"
+audience = "both"
+group = "References"
+order = 210
+verified = ""
+
+[[doc]]
+slug = "cli"
+file = "reference/cli.md"
+section = "reference"
+audience = "both"
+group = "References"
+order = 211
+verified = ""
+
+[[doc]]
+slug = "stores-toml"
+file = "reference/stores-toml.md"
+section = "reference"
+audience = "both"
+group = "References"
+order = 212
+verified = ""
+
+[[doc]]
+slug = "troubleshooting"
+file = "reference/troubleshooting.md"
+section = "reference"
+audience = "both"
+group = "References"
+order = 213
+verified = ""
+
+[[doc]]
+slug = "hosted-mcp-endpoint"
+file = "guide/hosted-mcp-endpoint.md"
+section = "guide"
+audience = "hosted"
+group = "References"
+order = 206
+verified = ""
+
+[[doc]]
+slug = "install-server"
+file = "private/install-server.md"
+section = "private"
+audience = "private"
+group = "Private server"
+order = 400
+next = "connect-client"
+verified = ""
+
+[[doc]]
+slug = "connect-client"
+file = "private/connect-client.md"
+section = "private"
+audience = "private"
+group = "Private server"
+order = 401
+previous = "install-server"
+next = "operate"
+verified = ""
+
+[[doc]]
+slug = "operate"
+file = "private/operate.md"
+section = "private"
+audience = "private"
+group = "Private server"
+order = 402
+previous = "connect-client"
+verified = ""

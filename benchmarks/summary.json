@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "results": [
+    {
+      "benchmark": "STALE",
+      "correct": 364,
+      "scored": 423,
+      "reported_percent": 86.1,
+      "cohort": "141 of 400 scenarios; three scored dimensions per scenario",
+      "scope": "stratified cohort, not a full-suite run"
+    },
+    {
+      "benchmark": "LongMemEval",
+      "correct": 133,
+      "scored": 149,
+      "reported_percent": 89.3,
+      "cohort": "149 questions across six question categories",
+      "scope": "stratified cohort"
+    },
+    {
+      "benchmark": "AMA-Bench",
+      "correct": 390,
+      "scored": 516,
+      "reported_percent": 75.6,
+      "cohort": "43 of 208 cases; 12 questions per case",
+      "scope": "stratified cohort, not a full-suite run"
+    }
+  ]
+}

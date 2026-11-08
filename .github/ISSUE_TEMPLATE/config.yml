@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/durmem/durmem/blob/main/SECURITY.md
+    about: Report privately. Never open a public issue for a vulnerability.
+  - name: General, business, or enterprise enquiries
+    url: mailto:info@durmem.ai
+    about: Not for bugs or setup problems -- use the support form for those.

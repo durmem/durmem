@@ -1,0 +1,11 @@
+# durmem connection credentials
+stores.toml
+.loom/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.pyc
