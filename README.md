@@ -11,8 +11,7 @@ later sessions. Relevant reminders help long-running agents stay on course. Shar
 reduces repeated explanations, rediscovery and rework, saving time and tokens.
 
 Start with the free hosted tier (five stores, 200 MB): [Install](INSTALL.md). Need help?
-[Ask in the Issues tab](https://github.com/durmem/durmem/issues). Paid plans and self-hosting
-options are coming soon.
+[Ask in the Issues tab](https://github.com/durmem/durmem/issues).
 
 ## Fully automated multi-agent pipeline
 
@@ -30,7 +29,8 @@ are authorized to use, sharing the context they need while keeping private knowl
 Durmem organizes reusable knowledge, brings reminders into context when needed, and keeps
 important guardrails available before an agent acts. Agents can reuse computations for repeated
 questions, build on another agent's findings, recognize updated decisions and resume unfinished
-work in a new session. See the [worked examples](https://durmem.ai/#action) on the website.
+work in a new session. See the [worked examples](https://durmem.ai/#action) on the website. Durmem is built
+with Durmem; read the [case study](https://durmem.ai/case-study) for the real project.
 
 ## Validate Durmem on real memory benchmarks
 
@@ -41,7 +41,7 @@ Published evaluations cover consistency when facts change (STALE), recall across
 ## Flexible plans
 
 The free hosted tier includes five managed stores and 200 MB of total storage, with no per-agent
-limits and encryption at rest. Paid plans with more stores and storage are coming soon. Teams that
+limits and encryption at rest. Teams that
 want full control of their data and access can [contact Durmem](mailto:info@durmem.ai) about
 self-hosting Durmem on their own network. For help with bugs or setup, use the Issues link below.
 See [current plans](https://durmem.ai/#pricing).

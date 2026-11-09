@@ -235,14 +235,12 @@ tar -tzf FILE
 ```
 
 The archive holds the store's database, its rules and a manifest. You can back up each store once
-per hour, and an archive can be at most 2 GB. Durmem does not yet restore a store from a backup, so
-treat the file as a copy to keep, not a way to undo a deletion. The
+per hour, and an archive can be at most 2 GB. Keep the file as a copy of the store. The
 [CLI reference](../reference/cli.md#back-up-a-store) lists the options and exit codes.
 
-On the hosted service, Durmem also makes a nightly backup of each hosted store on the same server,
-kept for up to 7 days where storage allows, with no guarantee. You can download and keep a backup of
-your store; restoring from it is not yet supported. See the
-[Privacy Policy](https://durmem.ai/privacy) for what those backups do and do not protect against.
+On the hosted service, Durmem also makes a nightly backup of each hosted store on the same server.
+You can download and keep a backup of your store. See the
+[Privacy Policy](https://durmem.ai/privacy) for how Durmem protects your data.
 
 ## Delete a store
 

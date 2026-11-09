@@ -123,16 +123,16 @@ hooks:
 ```
 
 Hermes also needs the Durmem skills in `~/.hermes/skills/` (or `$HERMES_HOME/skills/`) before it starts. Your Durmem server
-publishes them in its plugin repository, which you can clone without signing in. The Hermes
-bundle is the `plugins/hermes/julius-loom` folder of that clone, and its `skills/` folder holds
-what Hermes needs. For a private server, replace `https://durmem.ai` with your server's address.
+publishes them in its plugin repository, which you can clone without signing in. In that
+clone, the Hermes bundle is the only folder under `plugins/hermes/`, and its `skills/` folder
+holds what Hermes needs. For a private server, replace `https://durmem.ai` with your server's address.
 
 **Run in your terminal:**
 
 ```sh
 git clone --depth 1 https://durmem.ai/durmem-plugin.git ~/durmem-plugin
 mkdir -p "${HERMES_HOME:-$HOME/.hermes}/skills"
-cp -R ~/durmem-plugin/plugins/hermes/julius-loom/skills/. "${HERMES_HOME:-$HOME/.hermes}/skills/"
+cp -R ~/durmem-plugin/plugins/hermes/*/skills/. "${HERMES_HOME:-$HOME/.hermes}/skills/"
 ```
 
 Restart Hermes, then check the connection.

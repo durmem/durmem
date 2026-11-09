@@ -49,7 +49,7 @@ To give a trusted teammate access to a store, share that store's configuration b
 share only the intended store's block, not your whole configuration file. See
 [Share a store](../reference/stores-toml.md#share-a-store) for the steps.
 
-Hosted recovery depends on the service's retention and backup policy. If you may need to recover data later, [open an issue on GitHub](https://github.com/durmem/durmem/issues)
+To recover data later, [open an issue on GitHub](https://github.com/durmem/durmem/issues)
 before deleting it. Your operator manages recovery on a private
 server.
 

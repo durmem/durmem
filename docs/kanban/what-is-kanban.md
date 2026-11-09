@@ -71,7 +71,7 @@ instead of inventing a session ID.
 
 The operator, coordinator, task owners and workers coordinate through a shared Kanban store.
 
-![The operator directs the coordinator, task owners and workers, who share progress through a Kanban store.](/assets/kanban-roles-light.png)
+![The operator directs the coordinator, task owners and workers, who share progress through a Kanban store.](https://durmem.ai/assets/kanban-roles-light.png)
 
 To use a Kanban fleet, you (the operator) talk to the coordinator in your main harness session.
 It interprets your instructions, plans and prioritizes

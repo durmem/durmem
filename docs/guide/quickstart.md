@@ -476,3 +476,5 @@ For Hermes, follow [Connect Hermes to Durmem](connect-hermes.md). For chat assis
 themselves up, follow [Connect Meta's Muse to Durmem](connect-muse.md) or
 [Connect OpenAI's Dot to Durmem](connect-dot.md). For a client that can only connect to a web
 address, see [Connect an MCP client over the web](hosted-mcp-endpoint.md).
+
+Questions or problems? [Open an issue on GitHub](https://github.com/durmem/durmem/issues).
