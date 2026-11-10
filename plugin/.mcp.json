@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "durmem": {
+      "command": "durmem",
+      "args": ["mcp"],
+      "startup_timeout_sec": 120
+    }
+  }
+}

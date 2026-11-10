@@ -1,0 +1,17 @@
+{
+  "name": "loom",
+  "displayName": "Durmem",
+  "description": "Durmem gives Claude Code memory that lasts: what you decided, learned and left open comes back at the start of every session.",
+  "version": "0.806.38",
+  "author": {
+    "name": "Durmem LLC"
+  },
+  "homepage": "https://durmem.ai",
+  "keywords": [
+    "memory",
+    "mcp",
+    "loom",
+    "knowledge-graph",
+    "long-term-memory"
+  ]
+}
