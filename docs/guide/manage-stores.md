@@ -14,6 +14,9 @@ You can also view, create, and delete stores, or replace their keys, on the Stor
 
 ## See your stores
 
+> **Private install:** the stores listed are on your server; use your server's
+> address for store and server endpoints on this page. For account or data deletion on a private server, contact its administrator.
+
 **Run in your terminal:**
 
 ```sh

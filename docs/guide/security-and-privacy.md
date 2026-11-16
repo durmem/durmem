@@ -31,6 +31,9 @@ and run its embedding model.
 
 ## Who can read your data
 
+> **Private install:** your team's server keeps the data in your network, and your
+> operator controls who can reach it.
+
 Hosted stores are encrypted at rest and in transit. The service decrypts memory content to answer
 your agent's requests, so the Durmem operator and hosting administrators may be able to read it.
 This means the hosted service does not provide end-to-end encryption. See the

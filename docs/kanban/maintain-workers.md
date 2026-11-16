@@ -125,6 +125,10 @@ it can be inspected and handed off before the clone is removed. Fleet keeps the 
 cannot verify the remote, such as when the remote is unavailable or its local tracking
 information is out of date. Restore access and refresh the clone before retrying.
 
+For a worker scaled to zero, a broken or partial clone does not prevent the computer from
+applying its other Fleet settings. Any directory that remains is reported and left in place
+for inspection because its contents cannot be checked or removed safely.
+
 Once the handoff and worker removal are complete, the person managing that computer can remove
 the schedule for its Fleet residual, the background process that manages its workers. A lost or
 compromised computer also requires an access review: its access must be revoked and affected 

@@ -246,6 +246,15 @@ order = 206
 verified = ""
 
 [[doc]]
+slug = "plans-and-billing"
+file = "guide/plans-and-billing.md"
+section = "guide"
+audience = "hosted"
+group = "References"
+order = 207
+verified = ""
+
+[[doc]]
 slug = "install-server"
 file = "private/install-server.md"
 section = "private"

@@ -234,6 +234,9 @@ that the connection is listed:
 
 ## 3. Open the `palmerpenguins` project in your harness
 
+> **Private install:** use your server's store for this project; the steps below are
+> identical.
+
 We use the public `palmerpenguins` repository as the example throughout the Durmem guides and tutorials.
 You can replace it with your own project if you prefer. To set up the sample repository:
 
@@ -318,6 +321,9 @@ The agent should confirm that it saved the goal for the `palmerpenguins` project
 
 ## 5. Connect and read from a store
 
+> **Private install:** read from the same store on your server; the steps below are
+> identical.
+
 Once a fact is written to a store, other agents connected to that store can read it.
 
 Open a fresh harness session in the same repository. You can use a different harness or computer.
@@ -376,6 +382,8 @@ work, see
 
 ## 6. Check your stores
 
+> **Private install:** your licence is installed on the server, and the install reports its generation, its valid-to date and the host fingerprint it is bound to; there is no hosted plan panel.
+
 A team can set up multiple stores for different projects or functions. Ask your agent which
 stores are available to your organization:
 
@@ -391,6 +399,13 @@ have not added or deleted any stores, these are the three you should see under y
 On durmem.ai, the hosted free plan includes up to five stores and 200 MB of storage across them.
 The starter stores (`[coding]`, `[demo]`, and `[kanban]`) count toward the five-store limit. Other
 plans and private servers may have different limits.
+
+### Switching to a paid plan
+
+When a paid plan is available on durmem.ai, you start the switch from the billing page. Your
+stores pause for a short time while they move and come back on their own; nothing is deleted.
+Agents receive a "store is moving, retry shortly" answer during the pause and should retry after
+it. After the switch, the plan panel shows your new store and storage limits.
 
 ## You're set up
 
@@ -433,11 +448,10 @@ If you already have `durmem`, update it with:
 durmem update
 ```
 
-If you already have the latest release, `durmem update` says so and changes nothing. Otherwise it
-installs the latest release, and when it finishes its last setup reminder includes your server's
-address. Copy only the
-command between `Next: run ` and ` to refresh your coding harnesses.`; those phrases are not part
-of the command. Keep any quotes around the launcher path or server address.
+If you already have the latest release, `durmem update` says so and changes nothing. Otherwise, it
+installs the latest release and prints one final `Next:` line with the setup command for your server.
+Copy only the command between `Next: run ` and ` to refresh your coding harnesses.`; those phrases
+are not part of the command. Keep any quotes around the server address.
 
 > **Hosted:** The setup command for durmem.ai is:
 >

@@ -7,6 +7,9 @@ Use these tutorials to practice saving, connecting, and acting on project memori
 `palmerpenguins` repository and `[demo]` store, and explain how to adapt their outcomes to your own
 project.
 
+> **Private install:** every tutorial works the same against your server; use your
+> server's address when you connect.
+
 ## Core project-memory path
 
 1. [Durmem data types for coding agents](data-types-for-coding-agents.md): save different kinds of

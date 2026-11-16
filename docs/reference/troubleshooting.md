@@ -188,6 +188,8 @@ it while it may be in use.
 
 ## Windows command or setup issues
 
+The installer retries a failed uv download up to three total attempts, waiting 2 seconds and then 5 seconds between attempts.
+
 **Cause:** This PowerShell window or harness session was open before setup updated the command path or store connection.
 
 **Fix:** Open a new PowerShell window and run `durmem --version`. Restart the harness after setup so it reads the updated connection. On Windows, fully quit the Codex or ChatGPT desktop app from the system tray before reopening it; closing its window may leave it running. Use the PowerShell install steps in the Quickstart.

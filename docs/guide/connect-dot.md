@@ -63,8 +63,9 @@ The following steps are for Dot, not commands for you to run.
 
    `durmem setup` downloads the search model once; if setup warned that it could not, the first
    search or save downloads it and can take about a minute. In the result, `current_facts` holds the
-   facts that apply now. Facts that were retracted or replaced appear only under `stale_context`;
-   they are not matches. Run the sequence with the actual ID of this Dot conversation:
+   facts that apply now. Facts that were retracted or replaced are left out unless you ask for them
+   with `"include_stale": true`, and then they appear only under `stale_context`; they are not
+   matches. The default result says whether it left any out: `metadata.stale_omitted` is `true` or `false`. Run the sequence with the actual ID of this Dot conversation:
 
    ```sh
    python3 ~/.loom/connectors/dot/bin/client.py call-sequence --file seq.json --thread-id '<current conversation id>'

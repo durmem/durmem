@@ -39,6 +39,7 @@ Commands, settings and file formats.
 - [Connect Meta's Muse to Durmem](guide/connect-muse.md)
 - [Connect OpenAI's Dot to Durmem](guide/connect-dot.md)
 - [Connect an MCP client over the web](guide/hosted-mcp-endpoint.md)
+- [Plans and billing](guide/plans-and-billing.md)
 - [Glossary](reference/glossary.md)
 - [Command reference](reference/cli.md)
 - [Local Durmem configuration](reference/stores-toml.md)

@@ -1,8 +1,21 @@
 # Update Durmem
 <!-- loom-onboarding-surface: update -->
 
-Finish or checkpoint active work and preserve `~/.loom/stores.toml`. Re-run the
-same secure OS installer from [INSTALL.md](INSTALL.md), then run:
+Finish or checkpoint active work and preserve `~/.loom/stores.toml`. In your terminal, run:
+
+```bash
+durmem update
+durmem --version
+```
+
+`durmem update` installs the latest release from the CLI's original installation server. If you
+already run the latest, it prints `Durmem <version> is already up to date.` and changes nothing; if
+your installed version is newer than the published release, it prints that and changes nothing.
+`durmem --version` prints the installed version as `durmem <version>`.
+
+If `durmem update` is missing or fails, re-run the same secure OS installer from
+[INSTALL.md](INSTALL.md). After either update path completes, run `durmem setup` to
+refresh your coding harnesses:
 
 ```bash
 durmem setup

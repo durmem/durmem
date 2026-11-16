@@ -2,8 +2,7 @@
 
 <!-- loom-onboarding-surface: first-time -->
 
-Use the [Quickstart](docs/guide/quickstart.md) for your first setup. Already connected? Follow the
-instructions below to connect this computer and check your agent.
+Follow the instructions below to install Durmem and connect your coding agents.
 
 **Codex users only:** Durmem sets Codex up through the `codex` command. Before installing Durmem,
 run this in your terminal:
@@ -91,3 +90,5 @@ To host Durmem on your own network, contact [info@durmem.ai](mailto:info@durmem.
 If your team already has a private server, open `/docs/connect-client` on that server for the
 connection guide. Ask your team for its server address. Then return to the
 [Quickstart](docs/guide/quickstart.md#verify-the-harness-connection) to check your harness.
+
+After you install, go to the [Quickstart](docs/guide/quickstart.md) to start using Durmem.

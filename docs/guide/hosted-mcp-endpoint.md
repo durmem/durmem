@@ -8,6 +8,27 @@ core memory tools for one store.
 The Durmem plugin remains the recommended way to use Durmem: it gives your agent every Durmem
 tool and the guidance that goes with them. Use the web endpoint only when the plugin is not an option.
 
+## Before you start
+
+You need Durmem itself: install the CLI for your computer and run `durmem setup` once. To skip
+the prompt, name the tools you use, for example `durmem setup --harness claude`; to connect
+several, repeat the flag: `durmem setup --harness codex --harness claude`. Setup creates your
+account and installs the hooks; the store key below comes from that setup.
+
+macOS/Linux:
+
+```sh
+curl -fsSL https://durmem.ai/.well-known/cli/install.sh | sh
+durmem setup --harness claude
+```
+
+Windows PowerShell:
+
+```powershell
+irm https://durmem.ai/.well-known/cli/install.ps1 | iex
+durmem setup --harness claude
+```
+
 ## Connect
 
 The endpoint is `https://durmem.ai/api/mcp`. It accepts MCP requests over HTTPS and answers with
